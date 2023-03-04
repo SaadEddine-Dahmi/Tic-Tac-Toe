@@ -4,9 +4,9 @@ from tkinter import *
 import tkinter.messagebox
 
 
-click = True
+click = False
 
-tk = None
+
 
 def start():
 
@@ -51,9 +51,9 @@ def start():
 
             button3["text"] == "X" and button5["text"] == "X" and button7["text"] == "X"):
 
-            answer = tkinter.messagebox.askquestion('Congratulations X Player won the game.!!!', 'Do you want to play again')
-
+            answer = tkinter.messagebox.askquestion('X Player won the game!!!', 'Do you want to play again')
             tk.destroy()
+            
 
             if answer == 'yes': start()
 
@@ -74,12 +74,25 @@ def start():
 
             button3["text"] == "O" and button5["text"] == "O" and button7["text"] == "O"):
 
-            answer = tkinter.messagebox.askquestion('Congratulations O Player won the game!!!', 'Do you want to play again')
+            answer = tkinter.messagebox.askquestion('O Player won the game!!!', 'Do you want to play again')
             tk.destroy()
 
             if answer == 'yes': start()
-        
-        
+
+
+        elif (button1["text"] != " " and button2["text"] != " " and button3["text"] != " " and
+
+              button4["text"] != " " and button5["text"] != " " and button6["text"] != " " and
+
+              button7["text"] != " " and button8["text"] != " " and button9["text"] != " "):
+
+            answer = tkinter.messagebox.askquestion('Draw!!!', 'Do you want to play again')
+
+            tk.destroy()
+
+            if answer == 'yes': start()
+
+
 
 
     button1 = Button(tk, text=" ", font=('Times 26 bold'), height=4, width=8, command=lambda:play(button1))
