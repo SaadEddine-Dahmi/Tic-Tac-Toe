@@ -37,11 +37,11 @@ py x_o.py
 ```
 ## Images from the project 
  1) X winner     
- <img src="https://github.com/SaadEddine-Dahmi/img/blob/master/X_winner.png">
+ <img src="https://github.com/SaadEddine-Dahmi/Tic-Tac-Toe/blob/main/X_winner.png">
  2) O winner       
- <img src="https://github.com/SaadEddine-Dahmi/img/blob/master/O_winner.png">
+ <img src="https://github.com/SaadEddine-Dahmi/Tic-Tac-Toe/blob/main/O_winner.png">
  3) Draw       
- <img src="https://github.com/SaadEddine-Dahmi/img/blob/master/draw.png">
+ <img src="https://github.com/SaadEddine-Dahmi/Tic-Tac-Toe/blob/main/draw.png">
  
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
